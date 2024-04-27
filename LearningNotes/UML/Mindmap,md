@@ -1,0 +1,60 @@
+# In here, practise the plantuml
+
+## useful learning website
+<a href="https://real-world-plantuml.com/">Real world PlantUML</a>
+
+
+
+## start from a sequence diagram
+```plantuml
+@startuml
+skin rose
+autonumber
+
+actor User as user
+participant "Browser UI" as browser
+participant "Reseller UI" as reseller_ui
+
+user -> browser : Visit the Reseller UI login page
+browser -> reseller_ui : Retrieve the Reseller UI login page
+browser <- reseller_ui : Return the login page with form field \nusername, password, and One Time Password(OTP)
+user <- browser : Display the page, wait for user input
+user -> user: Recall username and password \nfrom memory
+user -> browser : Fill in the username and password field
+user -> user: Open Google Authenticator, \nread the OTP
+user -> browser : Fill in the OTP, and hit the send button
+browser -> reseller_ui : Send the username, password and OTP
+reseller_ui -> reseller_ui : Verify the information is valid
+alt Login valid
+    browser <- reseller_ui : Return the logged in page
+    user <- browser : Display the logged in page
+else Login invalid
+    browser <- reseller_ui : Return login failure page
+    user <- browser : Display the login failure page
+end
+@enduml
+```
+
+## class design
+what's the uml
+uml is abbr. of "Universary Modelling Language", 统一建模语言
+
+
+## try the mindmap here
+```plantuml
+@startmindmap
+skin rose
+
++ Programming Learning
+++ Language
++++ C: it is awful and never use it again
++++ Java: it is so important
++++ Python: it can solve so many things
++++ Javascript: use to build front web page
+++ Operation System
+++ Data structure
+++ design patern
+@endmindmap
+```
+
+
