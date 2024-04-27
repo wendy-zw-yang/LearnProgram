@@ -1,0 +1,212 @@
+********************************************************************************
+product = WebSphere Application Server 16.0.0.2 (wlp-1.0.13.cl160220160526-2258)
+wlp.install.dir = /usr/IBM/wlp/
+java.home = /usr/java/ibm_jdk8/jre
+java.version = 1.8.0
+java.runtime = Java(TM) SE Runtime Environment (pxa6480sr3-20160428_01 (SR3))
+os = Linux (3.0.76-0.11-default; amd64) (en_US)
+process = 23466@SHADCPLWLP01
+********************************************************************************
+[8/7/17 16:42:05:373 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           I CWWKE0002I: The kernel started after 3.074 seconds
+[8/7/17 16:42:05:425 CST] 00000027 com.ibm.ws.kernel.feature.internal.FeatureManager            I CWWKF0007I: Feature update started.
+[8/7/17 16:42:06:434 CST] 00000027 com.ibm.ws.config.xml.internal.ConfigEvaluator               W CWWKG0033W: The value [opsoa-ESB] specified for the reference attribute [containerAuthDataRef] was not found in the configuration.
+[8/7/17 16:42:07:102 CST] 0000001f com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0007I: The security service is starting...
+[8/7/17 16:42:07:596 CST] 0000001f com.ibm.ws.app.manager.internal.monitor.DropinMonitor        A CWWKZ0058I: Monitoring dropins for applications. 
+[8/7/17 16:42:07:673 CST] 0000002f com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint has been started and is now listening for requests on host *  (IPv4) port 10087.
+[8/7/17 16:42:08:348 CST] 0000001f com.ibm.ws.cache.ServerCache                                 I DYNA1001I: WebSphere Dynamic Cache instance named baseCache initialized successfully.
+[8/7/17 16:42:08:351 CST] 0000001f com.ibm.ws.cache.ServerCache                                 I DYNA1071I: The cache provider default is being used.
+[8/7/17 16:42:08:352 CST] 0000001f com.ibm.ws.cache.CacheServiceImpl                            I DYNA1056I: Dynamic Cache (object cache) initialized successfully.
+[8/7/17 16:42:08:505 CST] 00000039 com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0008I: The security service is ready.
+[8/7/17 16:42:08:506 CST] 00000039 com.ibm.ws.security.token.ltpa.internal.LTPAKeyCreator       I CWWKS4105I: LTPA configuration is ready after 0.052 seconds.
+[8/7/17 16:42:08:572 CST] 00000029 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0219I: TCP Channel defaultHttpEndpoint-ssl has been started and is now listening for requests on host *  (IPv4) port 10487.
+[8/7/17 16:42:08:869 CST] 0000001f com.ibm.ws.ui.internal.v1.pojo.POJOLoaderService             I CWWKX1015I: FILE persistence layer initialized for the Admin Center.
+[8/7/17 16:42:08:878 CST] 0000001f com.ibm.ws.ui.internal.v1.pojo.PlainTextLoaderService        I CWWKX1063I: FILE persistence layer initialized for the Admin Center tool data loader.
+[8/7/17 16:42:09:462 CST] 00000029 com.ibm.ws.app.manager.AppMessageHelper                      I CWWKZ0018I: Starting application OpSOA.
+[8/7/17 16:42:10:026 CST] 00000037 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: IBMJMXConnectorREST.
+[8/7/17 16:42:10:029 CST] 00000034 com.ibm.ws.webcontainer.osgi.webapp.WebGroup                 I SRVE0169I: Loading Web Module: ibm/api.
+[8/7/17 16:42:10:030 CST] 00000037 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module IBMJMXConnectorREST has been bound to default_host.
+[8/7/17 16:42:10:030 CST] 00000034 com.ibm.ws.webcontainer                                      I SRVE0250I: Web Module ibm/api has been bound to default_host.
+[8/7/17 16:45:42:588 CST] 000002b3 SystemOut                                                    O Start PendingV1.3 retrievePendings4E orgid=N00002,polnum=A114381314,t=1502095542588
+[8/7/17 16:45:42:591 CST] 000002b3 SystemOut                                                    O End Pending retrievePendings4E 0, orgid=N00002,polnum=A114381314,t=1502095542588 Cost:3
+[8/7/17 16:45:42:630 CST] 000002b5 SystemOut                                                    O Start PendingV1.3 retrievePendings4E orgid=N00002,polnum=A115082243,t=1502095542630
+[8/7/17 16:45:42:654 CST] 000002b5 SystemOut                                                    O End Pending retrievePendings4E 0, orgid=N00002,polnum=A115082243,t=1502095542630 Cost:24
+[8/7/17 16:45:42:673 CST] 000002b4 SystemOut                                                    O Start PendingV1.3 retrievePendings4E orgid=N00002,polnum=A115201118,t=1502095542673
+[8/7/17 16:45:42:676 CST] 000002b4 SystemOut                                                    O End Pending retrievePendings4E 0, orgid=N00002,polnum=A115201118,t=1502095542673 Cost:3
+[8/7/17 16:45:42:896 CST] 000002b4 SystemOut                                                    O Start PendingV1.3 retrievePendings4E orgid=N00002,polnum=C119098204,t=1502095542896
+[8/7/17 16:45:42:898 CST] 000002b4 SystemOut                                                    O End Pending retrievePendings4E 0, orgid=N00002,polnum=C119098204,t=1502095542896 Cost:2
+[8/7/17 16:45:45:686 CST] 000002b5 SystemOut                                                    O Start PendingV1.3 retrievePendings4E orgid=S00001,polnum=P005703881,t=1502095545686
+[8/7/17 16:45:45:707 CST] 000002b5 SystemOut                                                    O End Pending retrievePendings4E 0, orgid=S00001,polnum=P005703881,t=1502095545686 Cost:21
+[8/7/17 16:45:46:078 CST] 00000050 SystemOut                                                    O End Pending retrievePendings4E 0, orgid=N00002,polnum=C124638219,t=1502095544782 Cost:1296
+[8/7/17 16:45:46:252 CST] 000002b5 SystemOut                                                    O Start PendingV1.3 retrievePendings4E orgid=N00002,polnum=H112999708,t=1502095546252
+[8/7/17 16:45:46:255 CST] 000002b5 SystemOut                                                    O End Pending retrievePendings4E 0, orgid=N00002,polnum=H112999708,t=1502095546252 Cost:3
+[8/7/17 16:45:46:269 CST] 00000050 SystemOut                                                    O Start PendingV1.3 retrievePendings4E orgid=N00002,polnum=C122123784,t=1502095546269
+[8/7/17 16:45:46:272 CST] 00000050 SystemOut                                                    O End Pending retrievePendings4E 0, orgid=N00002,polnum=C122123784,t=1502095546269 Cost:3
+[8/7/17 16:45:47:184 CST] 0000025f SystemOut                                                    O Time consumed in all for CustomerInfo:[查找4要素]====>14666
+[8/7/17 16:45:47:342 CST] 000002df SystemOut                                                    O Time consumed in NB:====>154
+[8/7/17 16:45:47:399 CST] 000000cc a.cn.claimsrv.getclaiminfo.endpoint.GetClaimInfoPortTypeImpl I Executing operation retrieveClaim
+[8/7/17 16:45:47:399 CST] 000000cc SystemOut                                                    O aia.cn.claimsrv.getclaiminfo.endpoint.RetrieveClaimInfoRequestType@6df026cc
+[8/7/17 16:45:47:399 CST] 000000cc SystemOut                                                    O GetClaimInfoService:
+[8/7/17 16:45:47:409 CST] 000000cc SystemOut                                                    O 84005788-------------------------------------request-----------------------
+[8/7/17 16:45:47:439 CST] 000000cc SystemOut                                                    O policyContactsBeanList:    4
+[8/7/17 16:45:47:540 CST] 000000cc SystemOut                                                    O 84005788-------------------------------------request-----------------------
+[8/7/17 16:45:47:606 CST] 000000cc SystemOut                                                    O policyContactsBeanList:    0
+[8/7/17 16:45:47:842 CST] 000002dd SystemOut                                                    O Time consumed in IGM:====>656
+[8/7/17 16:45:50:213 CST] 00000275 SystemOut                                                    O policyContactsBeanList:    0
+[8/7/17 16:45:51:881 CST] 000000cc yInfo.eservice.endpoint.PolicyInformationServicePortTypeImpl I Executing operation retrievePolicy
+[8/7/17 16:45:51:881 CST] 000000cc yInfo.eservice.endpoint.PolicyInformationServicePortTypeImpl I retrievePolicy Reuqest:aia.cn.policysrv.getPolicyInfo.eservice.endpoint.RetrievePolicyInformationRequestType@1e486452
+[8/7/17 16:45:53:476 CST] 000002e6 SystemOut                                                    O Time consumed in NB:====>6285
+[8/7/17 16:45:56:190 CST] 000002e4 SystemOut                                                    O Time consumed in IGM:====>9001
+[8/7/17 16:45:56:842 CST] 000002d6 a.cn.claimsrv.getclaiminfo.endpoint.GetClaimInfoPortTypeImpl I Executing operation retrieveClaim
+[8/7/17 16:45:56:843 CST] 000002d6 SystemOut                                                    O aia.cn.claimsrv.getclaiminfo.endpoint.RetrieveClaimInfoRequestType@b0f3593
+[8/7/17 16:45:56:843 CST] 000002d6 SystemOut                                                    O GetClaimInfoService:
+[8/7/17 16:45:56:860 CST] 000002d6 SystemOut                                                    O 13674371-------------------------------------request-----------------------
+[8/7/17 16:45:56:929 CST] 000002d6 SystemOut                                                    O 13674371-------------------------------------request-----------------------
+[8/7/17 16:45:57:000 CST] 000002d6 SystemOut                                                    O policyContactsBeanList:    9
+[8/7/17 16:45:57:001 CST] 000002d6 SystemOut                                                    O policyContactsBeanList:    9
+[8/7/17 16:45:57:373 CST] 0000006b yInfo.eservice.endpoint.PolicyInformationServicePortTypeImpl I Executing operation retrievePolicy
+[8/7/17 16:45:57:373 CST] 0000006b yInfo.eservice.endpoint.PolicyInformationServicePortTypeImpl I retrievePolicy Reuqest:aia.cn.policysrv.getPolicyInfo.eservice.endpoint.RetrievePolicyInformationRequestType@777582d3
+[8/7/17 16:45:57:475 CST] 000002b4 yInfo.eservice.endpoint.PolicyInformationServicePortTypeImpl I Executing operation retrievePolicy
+[8/7/17 16:45:57:475 CST] 000002b4 yInfo.eservice.endpoint.PolicyInformationServicePortTypeImpl I retrievePolicy Reuqest:aia.cn.policysrv.getPolicyInfo.eservice.endpoint.RetrievePolicyInformationRequestType@6863d157
+[8/7/17 16:45:59:434 CST] 000000c0 SystemOut                                                    O Start PendingV1.3 retrievePendings4E orgid=N00003,polnum=A164535576,t=1502095559434
+[8/7/17 16:45:59:516 CST] 000000c0 SystemOut                                                    O End Pending retrievePendings4E 0, orgid=N00003,polnum=A164535576,t=1502095559434 Cost:82
+[8/7/17 16:46:01:073 CST] 00000380 SystemOut                                                    O Start PendingV1.3 retrievePendings4E orgid=N00001,polnum=A345379153,t=1502095561073
+[8/7/17 16:46:01:098 CST] 00000380 SystemOut                                                    O End Pending retrievePendings4E 0, orgid=N00001,polnum=A345379153,t=1502095561073 Cost:25
+[8/7/17 16:46:01:126 CST] 000002b5 a.cn.claimsrv.getclaiminfo.endpoint.GetClaimInfoPortTypeImpl I Executing operation retrieveClaim
+
+[8/7/17 17:15:00:324 CST] 00001149 com.ibm.ws.webcontainer.webapp                               E SRVE0276E: Error while initializing Servlet [spring]: javax.servlet.ServletException: SRVE0207E: Uncaught initialization exception created by servlet
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.init(ServletWrapper.java:401)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.loadOnStartupCheck(ServletWrapper.java:1428)
+	at com.ibm.ws.webcontainer.webapp.WebApp.doLoadOnStartupActions(WebApp.java:1181)
+	at com.ibm.ws.webcontainer.webapp.WebApp.commonInitializationFinally(WebApp.java:1149)
+	at com.ibm.ws.webcontainer.webapp.WebApp.initialize(WebApp.java:1055)
+	at com.ibm.ws.webcontainer.webapp.WebApp.initialize(WebApp.java:6499)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost.startWebApp(DynamicVirtualHost.java:446)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost.startWebApplication(DynamicVirtualHost.java:441)
+	at com.ibm.ws.webcontainer.osgi.WebContainer.startWebApplication(WebContainer.java:1000)
+	at com.ibm.ws.webcontainer.osgi.WebContainer.startModule(WebContainer.java:824)
+	at com.ibm.ws.app.manager.web.internal.WebModuleHandlerImpl.deployModule(WebModuleHandlerImpl.java:103)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployModule(DeployedAppInfoBase.java:871)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployModules(DeployedAppInfoBase.java:831)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:818)
+	at com.ibm.ws.app.manager.ear.internal.EARApplicationHandlerImpl.install(EARApplicationHandlerImpl.java:84)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:141)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1192)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.performAction(ApplicationStateMachineImpl.java:1038)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:813)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1153)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:785)
+Caused by: org.springframework.beans.factory.BeanDefinitionStoreException: Unable to determine validation mode for [ServletContext resource [/WEB-INF/applicationContext.xml]]: cannot open InputStream. Did you attempt to load directly from a SAX InputSource without specifying the validationMode on your XmlBeanDefinitionReader instance?; nested exception is java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.detectValidationMode(XmlBeanDefinitionReader.java:461)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.getValidationModeForResource(XmlBeanDefinitionReader.java:430)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.doLoadBeanDefinitions(XmlBeanDefinitionReader.java:387)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:334)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:125)
+	at org.springframework.web.context.support.XmlWebApplicationContext.loadBeanDefinitions(XmlWebApplicationContext.java:94)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:522)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:436)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:385)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:284)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:111)
+	at aia.cn.common.utility.EnpContextLoaderListener.contextInitialized(EnpContextLoaderListener.java:24)
+	at com.ibm.ws.webcontainer.webapp.WebApp.notifyServletContextCreated(WebApp.java:2390)
+	at com.ibm.ws.webcontainer31.osgi.webapp.WebApp31.notifyServletContextCreated(WebApp31.java:505)
+	at com.ibm.ws.webcontainer.webapp.WebApp.initialize(WebApp.java:1050)
+	... 17 more
+Caused by: java.io.FileNotFoundException: Could not open ServletContext resource [/WEB-INF/applicationContext.xml]
+	at org.springframework.web.context.support.ServletContextResource.getInputStream(ServletContextResource.java:140)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.detectValidationMode(XmlBeanDefinitionReader.java:458)
+	... 36 more
+
+[8/7/17 17:15:00:359 CST] 00001149 com.ibm.ws.logging.internal.impl.IncidentImpl                I FFDC1015I: An FFDC Incident has been created: "org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicationContext.xml] cannot be opened because it does not exist com.ibm.ws.webcontainer.servlet.ServletWrapper.init 181" at ffdc_17.08.07_17.15.00.1.log
+[8/7/17 17:15:00:359 CST] 00001149 com.ibm.ws.webcontainer.servlet                              E SRVE0271E: Uncaught init() exception created by servlet [OpSOAInitServlet] in application [OpSOA]: org.springframework.beans.factory.BeanDefinitionStoreException: IOException parsing XML document from class path resource [applicationContext.xml]; nested exception is java.io.FileNotFoundException: class path resource [applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:341)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:302)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:174)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:209)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:180)
+	at org.springframework.beans.factory.support.AbstractBeanDefinitionReader.loadBeanDefinitions(AbstractBeanDefinitionReader.java:243)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:127)
+	at org.springframework.context.support.AbstractXmlApplicationContext.loadBeanDefinitions(AbstractXmlApplicationContext.java:93)
+	at org.springframework.context.support.AbstractRefreshableApplicationContext.refreshBeanFactory(AbstractRefreshableApplicationContext.java:131)
+	at org.springframework.context.support.AbstractApplicationContext.obtainFreshBeanFactory(AbstractApplicationContext.java:522)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:436)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:139)
+	at org.springframework.context.support.ClassPathXmlApplicationContext.<init>(ClassPathXmlApplicationContext.java:83)
+	at aia.cn.common.utility.EnpBeanFactory.buildContext(EnpBeanFactory.java:64)
+	at aia.cn.common.utility.EnpBeanFactory.getBean(EnpBeanFactory.java:55)
+	at aia.cn.common.util.BusParamMap.initBankMap(BusParamMap.java:64)
+	at aia.cn.integration.op.servlet.OpSOAInitServlet.init(OpSOAInitServlet.java:28)
+	at javax.servlet.GenericServlet.init(GenericServlet.java:244)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.init(ServletWrapper.java:332)
+	at com.ibm.ws.webcontainer.servlet.ServletWrapper.loadOnStartupCheck(ServletWrapper.java:1428)
+	at com.ibm.ws.webcontainer.webapp.WebApp.doLoadOnStartupActions(WebApp.java:1181)
+	at com.ibm.ws.webcontainer.webapp.WebApp.commonInitializationFinally(WebApp.java:1149)
+	at com.ibm.ws.webcontainer.webapp.WebApp.initialize(WebApp.java:1055)
+	at com.ibm.ws.webcontainer.webapp.WebApp.initialize(WebApp.java:6499)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost.startWebApp(DynamicVirtualHost.java:446)
+	at com.ibm.ws.webcontainer.osgi.DynamicVirtualHost.startWebApplication(DynamicVirtualHost.java:441)
+	at com.ibm.ws.webcontainer.osgi.WebContainer.startWebApplication(WebContainer.java:1000)
+	at com.ibm.ws.webcontainer.osgi.WebContainer.startModule(WebContainer.java:824)
+	at com.ibm.ws.app.manager.web.internal.WebModuleHandlerImpl.deployModule(WebModuleHandlerImpl.java:103)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployModule(DeployedAppInfoBase.java:871)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployModules(DeployedAppInfoBase.java:831)
+	at com.ibm.ws.app.manager.module.internal.DeployedAppInfoBase.deployApp(DeployedAppInfoBase.java:818)
+	at com.ibm.ws.app.manager.ear.internal.EARApplicationHandlerImpl.install(EARApplicationHandlerImpl.java:84)
+	at com.ibm.ws.app.manager.internal.statemachine.StartAction.execute(StartAction.java:141)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.enterState(ApplicationStateMachineImpl.java:1192)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.performAction(ApplicationStateMachineImpl.java:1038)
+	at com.ibm.ws.app.manager.internal.statemachine.ApplicationStateMachineImpl.run(ApplicationStateMachineImpl.java:813)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1153)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628)
+	at java.lang.Thread.run(Thread.java:785)
+Caused by: java.io.FileNotFoundException: class path resource [applicationContext.xml] cannot be opened because it does not exist
+	at org.springframework.core.io.ClassPathResource.getInputStream(ClassPathResource.java:158)
+	at org.springframework.beans.factory.xml.XmlBeanDefinitionReader.loadBeanDefinitions(XmlBeanDefinitionReader.java:328)
+	... 39 more
+
+[8/7/17 17:15:26:330 CST] 00001f4e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://shadcplwlp01:10087/customer/
+[8/7/17 17:15:26:334 CST] 00001f4e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [OpSOA] [/customer] [OpSOAInitServlet]: Destroy successful.
+[8/7/17 17:15:26:335 CST] 00001f4e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [OpSOA] [/customer] [CXFService]: Destroy successful.
+[8/7/17 17:15:26:335 CST] 00001f4e com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [customer]:.Destroying Spring FrameworkServlet 'spring'
+[8/7/17 17:15:26:335 CST] 00001f4e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [OpSOA] [/customer] [spring]: Destroy successful.
+[8/7/17 17:15:26:336 CST] 00001f4e com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [customer]:.Closing Spring root WebApplicationContext
+[8/7/17 17:15:26:343 CST] 00001f4e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://shadcplwlp01:10087/pos/
+[8/7/17 17:15:26:344 CST] 00001f4e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [OpSOA] [/pos] [OpSOAInitServlet]: Destroy successful.
+[8/7/17 17:15:26:344 CST] 00001f4e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [OpSOA] [/pos] [xfireServlet]: Destroy successful.
+[8/7/17 17:15:26:344 CST] 00001f4e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [OpSOA] [/pos] [CXFService]: Destroy successful.
+[8/7/17 17:15:26:344 CST] 00001f4e com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [pos]:.Destroying Spring FrameworkServlet 'spring'
+[8/7/17 17:15:26:346 CST] 00001f4e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [OpSOA] [/pos] [spring]: Destroy successful.
+[8/7/17 17:15:26:346 CST] 00001f4e com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [pos]:.Closing Spring root WebApplicationContext
+[8/7/17 17:15:26:354 CST] 00001f4e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://shadcplwlp01:10087/payment/
+[8/7/17 17:15:26:354 CST] 00001f4e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [OpSOA] [/payment] [OpSOAInitServlet]: Destroy successful.
+[8/7/17 17:15:26:355 CST] 00001f4e com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [payment]:.Destroying Spring FrameworkServlet 'spring'
+[8/7/17 17:15:26:356 CST] 00001f4e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [OpSOA] [/payment] [spring]: Destroy successful.
+[8/7/17 17:15:26:356 CST] 00001f4e com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [payment]:.Closing Spring root WebApplicationContext
+[8/7/17 17:15:26:363 CST] 00001f4e com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://shadcplwlp01:10087/claim/
+[8/7/17 17:15:26:363 CST] 00001f4e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [OpSOA] [/claim] [OpSOAInitServlet]: Destroy successful.
+[8/7/17 17:15:26:363 CST] 00001f4e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [OpSOA] [/claim] [CXFService]: Destroy successful.
+[8/7/17 17:15:26:363 CST] 00001f4e com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [claim]:.Destroying Spring FrameworkServlet 'spring'
+[8/7/17 17:15:26:365 CST] 00001f4e com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [OpSOA] [/claim] [spring]: Destroy successful.
+[8/7/17 17:15:26:365 CST] 00001f4e com.ibm.ws.webcontainer.webapp                               I SRVE0292I: Servlet Message - [claim]:.Closing Spring root WebApplicationContext
+[8/7/17 17:15:26:372 CST] 00001f4e om.ibm.ws.app.manager.ear.internal.EARApplicationHandlerImpl E CWWKZ0106E: Could not start web application OpSOA.
+[8/7/17 17:15:26:375 CST] 00001f4e com.ibm.ws.app.manager.AppMessageHelper                      E CWWKZ0002E: An exception occurred while starting the application OpSOA. The exception message was: com.ibm.ws.container.service.state.StateChangeException: com.ibm.ws.dynamic.bundle.DynamicBundleException: Failed to create bundle
+[8/7/17 17:20:11:186 CST] 0000001d com.ibm.ws.kernel.launch.internal.ServerCommandListener      A CWWKE0055I: Server shutdown requested on Monday, August 7, 2017 at 5:20 PM. The server opsoa is shutting down.
+[8/7/17 17:20:11:194 CST] 00001f9f com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1100I: Begin server quiesce.
+[8/7/17 17:20:11:207 CST] 00001fa0 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint-ssl has stopped listening for requests on host *  (IPv4) port 10487.
+[8/7/17 17:20:11:209 CST] 00001fa0 com.ibm.ws.tcpchannel.internal.TCPChannel                    I CWWKO0220I: TCP Channel defaultHttpEndpoint has stopped listening for requests on host *  (IPv4) port 10087.
+[8/7/17 17:20:11:210 CST] 00001fa0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://shadcplwlp01:10087/ibm/adminCenter/serverConfig-1.0/
+[8/7/17 17:20:11:210 CST] 00001fa0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://shadcplwlp01:10087/adminCenter/
+[8/7/17 17:20:11:210 CST] 00001fa0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://shadcplwlp01:10087/IBMJMXConnectorREST/
+[8/7/17 17:20:11:210 CST] 00001fa0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://shadcplwlp01:10087/ibm/api/
+[8/7/17 17:20:11:210 CST] 00001fa0 com.ibm.ws.http.internal.VirtualHostImpl                     A CWWKT0017I: Web application removed (default_host): http://shadcplwlp01:10087/ibm/adminCenter/explore-1.0/
+[8/7/17 17:20:11:212 CST] 00001f9f com.ibm.ws.runtime.update.internal.RuntimeUpdateManagerImpl  I CWWKE1101I: Server quiesce complete.
+[8/7/17 17:20:11:267 CST] 00001f9f com.ibm.ws.webcontainer.servlet                              I SRVE0253I: [com.ibm.ws.jmx.connector.server.rest] [/IBMJMXConnectorREST] [MBeanServerConnector]: Destroy successful.
+[8/7/17 17:20:12:809 CST] 00001f9f com.ibm.ws.security.ready.internal.SecurityReadyServiceImpl  I CWWKS0009I: The security service has stopped.
+[8/7/17 17:20:12:862 CST] 00001f9f com.ibm.tx.jta.impl.FailureScopeController                   A WTRN0105I: The transaction service has shutdown successfully with no transactions requiring recovery.
+[8/7/17 17:20:15:632 CST] 00000001 com.ibm.ws.kernel.launch.internal.FrameworkManager           A CWWKE0036I: The server opsoa stopped after 38 minutes, 13.344 seconds.
