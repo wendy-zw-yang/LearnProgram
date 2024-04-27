@@ -1,2 +1,2 @@
-# LearnProgram
-some learning samples
+# 介绍
+这里放的是我的一些学习材料和一些练习
