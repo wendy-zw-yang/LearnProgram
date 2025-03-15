@@ -1,0 +1,15 @@
+{
+    "files.associations": {
+        "string.h": "c",
+        "menu.h": "c",
+        "catdata.h": "c",
+        "stdio.h": "c",
+        "timesetting.h": "c",
+        "windows.h": "c",
+        "catfeeder.h": "c",
+        "time.h": "c",
+        "conio.h": "c",
+        "typeinfo": "c",
+        "cstdlib": "c"
+    }
+}
